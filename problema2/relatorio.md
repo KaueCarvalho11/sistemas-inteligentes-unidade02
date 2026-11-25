@@ -1,0 +1,3 @@
+# Sistema de detecção de intrusão em produção
+
+O erro mais crítico é o falso negativo, pois permite que ataques reais passem despercebidos, podendo comprometer a segurança da rede. Já um falso positivo classifica uma conexão legítima como ameaça, podendo gerar alertas e bloqueios indevidos. Para reduzir os falsos negativos e aumentar a sensibilidade (recall) na detecção de ataques, deve-se diminuir o limiar de decisão abaixo do padrão de 0,5 (por exemplo, para 0,3), aceitando um possível aumento nos falsos positivos em troca de uma maior capacidade de detectar ameaças.
